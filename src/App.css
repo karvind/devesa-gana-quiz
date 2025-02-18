@@ -214,3 +214,13 @@ h1 {
 .results li {
   margin: 10px 0;
 }
+
+/* Styles for devices with a max width of 768px (e.g., iPhones) */
+@media (max-width: 768px) {
+  .main-content {
+    display: block;
+  }
+  .column {
+    width: 100%;
+  }
+}
