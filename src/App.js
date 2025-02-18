@@ -293,6 +293,7 @@ const App = () => {
                 <source src="/devesa-gana.mp3" type="audio/mpeg" />
                 Your browser does not support the audio element.
               </audio>
+              Singer: Karthik Narayanaswamy
               <h3>Lyrics</h3>
               {songDetails.lyrics.map((charanam, index) => (
                 <div key={index} className="charanam">
