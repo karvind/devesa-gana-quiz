@@ -103,6 +103,7 @@ h1 {
 
 .answer-key-column {
   max-width: 400px;
+  align-self: flex-start; /* Prevent stretching */
 }
 
 .song-details h2 {
